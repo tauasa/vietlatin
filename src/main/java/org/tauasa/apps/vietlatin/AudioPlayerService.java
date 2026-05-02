@@ -1,15 +1,21 @@
 package org.tauasa.apps.vietlatin;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Service;
-
-import javax.sound.sampled.*;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+
+import javax.sound.sampled.AudioFormat;
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.LineUnavailableException;
+import javax.sound.sampled.SourceDataLine;
+import javax.sound.sampled.UnsupportedAudioFileException;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 
 /**
  * Saves received audio bytes to disk and, if audio hardware is available,
@@ -47,12 +53,12 @@ public class AudioPlayerService {
             playMp3(audioBytes);
         } catch (UnsupportedAudioFileException e) {
             // MP3 codec not present (common in headless / server JDKs)
-            log.info("Direct playback unavailable (no MP3 codec). "
+            log.error("Direct playback unavailable (no MP3 codec). "
                     + "Open the file with your OS media player:");
-            log.info("  → {}", outputPath.toAbsolutePath());
+            log.info("MP3 file: {}", outputPath.toAbsolutePath());
             printOpenCommand(outputPath);
         } catch (LineUnavailableException | IOException e) {
-            log.warn("Audio playback failed: {}", e.getMessage());
+            log.error("Audio playback failed: {}", e.getMessage());
             log.info("Open the file manually: {}", outputPath.toAbsolutePath());
         }
     }
