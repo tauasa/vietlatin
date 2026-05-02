@@ -1,7 +1,8 @@
 # 🎤 Vietlatin Ongifier
 
-Translates English text into **Ong dialect** and reads it aloud via
-[ElevenLabs](https://elevenlabs.io) TTS, powered by **Spring AI**.
+Translates English text into the **Ong Dialect** of the made-up language **Vietlatin** and reads it aloud via TTS backed by [ElevenLabs](https://elevenlabs.io), powered by **Spring AI**.
+
+Although this is a made-up/pretend language, my wife and I use it daily for certain keywords that get our dogs amped up. Since can't say words like "park," "ride," "cookie," "treat," etc, we spell it out in Vietlatin.
 
 ---
 
@@ -19,13 +20,10 @@ Each word is split into characters. Every character is transformed:
 | Vowel U | replace | `u` → `ū` |
 
 ### Examples
-
 ```
-Park  →  pong ā rong kong
-Dog   →  dong ō gong
-Hello →  hong ē long long ō
-Tasty →  tong ā song tong yong
-Adios →  ā dong ī ō song
+Park    → pong ā rong kong
+Dog     → dong ō gong
+Cookie  → cong ō ō kong ī ē
 ```
 
 ---
@@ -34,13 +32,13 @@ Adios →  ā dong ī ō song
 
 | Tool | Version |
 |---|---|
-| Java | 22+ |
+| Java | 17+ |
 | Maven | 3.9+ |
 | ElevenLabs API key | [Get one free](https://elevenlabs.io) |
 
 ---
 
-## Quick Start
+## Quick Start with ElevenLabs
 
 ### 1. Get an ElevenLabs API key
 
@@ -124,6 +122,8 @@ start output.mp3       # Windows
 ```
 vietlatin/
 ├── pom.xml
+├── README.md
+├── output.mp3
 └── src/
     ├── main/
     │   ├── java/org/tauasa/apps/vietlatin/

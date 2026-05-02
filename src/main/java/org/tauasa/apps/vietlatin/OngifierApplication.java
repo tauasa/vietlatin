@@ -1,12 +1,12 @@
 package org.tauasa.apps.vietlatin;
 
+import java.util.Scanner;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.util.Scanner;
 
 /**
  * Entry point for the Ongifier application.
@@ -51,8 +51,8 @@ public class OngifierApplication implements CommandLineRunner {
         // Otherwise, start interactive REPL.
         System.out.println();
         System.out.println("╔══════════════════════════════════════════╗");
-        System.out.println("║          W E L C O M E  T O             ║");
-        System.out.println("║           O N G I F I E R               ║");
+        System.out.println("║          W E L C O M E  T O              ║");
+        System.out.println("║           O N G I F I E R                ║");
         System.out.println("╚══════════════════════════════════════════╝");
         System.out.println("  Type any English text and hear it in Ong!");
         System.out.println("  (type 'quit' or 'exit' to stop)");
