@@ -1,0 +1,2053 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "vietlatin-test",
+        "directory": "/Users/tauasa/Projects/GitHub/vietlatin",
+        "workspaceDir": "/Users/tauasa/Projects/GitHub/vietlatin",
+        "sources": [
+            "/Users/tauasa/Projects/GitHub/vietlatin/src/test/java"
+        ],
+        "dependencies": [
+            "vietlatin"
+        ],
+        "classpath": [
+            "/Users/tauasa/Projects/GitHub/vietlatin/target/test-classes",
+            "/Users/tauasa/Projects/GitHub/vietlatin/target/classes",
+            "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter/3.4.5/spring-boot-starter-3.4.5.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot/3.4.5/spring-boot-3.4.5.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/spring-context/6.2.6/spring-context-6.2.6.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/spring-aop/6.2.6/spring-aop-6.2.6.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/spring-expression/6.2.6/spring-expression-6.2.6.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.4.5/spring-boot-autoconfigure-3.4.5.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.4.5/spring-boot-starter-logging-3.4.5.jar",
+            "/Users/tauasa/.m2/repository/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.jar",
+            "/Users/tauasa/.m2/repository/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.jar",
+            "/Users/tauasa/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.24.3/log4j-to-slf4j-2.24.3.jar",
+            "/Users/tauasa/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar",
+            "/Users/tauasa/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17.jar",
+            "/Users/tauasa/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/spring-core/6.2.6/spring-core-6.2.6.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/spring-jcl/6.2.6/spring-jcl-6.2.6.jar",
+            "/Users/tauasa/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-starter-model-elevenlabs/1.1.4/spring-ai-starter-model-elevenlabs-1.1.4.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-autoconfigure-model-elevenlabs/1.1.4/spring-ai-autoconfigure-model-elevenlabs-1.1.4.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-autoconfigure-model-tool/1.1.4/spring-ai-autoconfigure-model-tool-1.1.4.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-autoconfigure-retry/1.1.4/spring-ai-autoconfigure-retry-1.1.4.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-elevenlabs/1.1.4/spring-ai-elevenlabs-1.1.4.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-model/1.1.4/spring-ai-model-1.1.4.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-commons/1.1.4/spring-ai-commons-1.1.4.jar",
+            "/Users/tauasa/.m2/repository/io/micrometer/micrometer-core/1.14.6/micrometer-core-1.14.6.jar",
+            "/Users/tauasa/.m2/repository/org/hdrhistogram/HdrHistogram/2.2.2/HdrHistogram-2.2.2.jar",
+            "/Users/tauasa/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar",
+            "/Users/tauasa/.m2/repository/io/micrometer/context-propagation/1.1.3/context-propagation-1.1.3.jar",
+            "/Users/tauasa/.m2/repository/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.18.3/jackson-module-jsonSchema-2.18.3.jar",
+            "/Users/tauasa/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar",
+            "/Users/tauasa/.m2/repository/com/knuddels/jtokkit/1.1.0/jtokkit-1.1.0.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-template-st/1.1.4/spring-ai-template-st-1.1.4.jar",
+            "/Users/tauasa/.m2/repository/org/antlr/ST4/4.3.4/ST4-4.3.4.jar",
+            "/Users/tauasa/.m2/repository/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/spring-messaging/6.2.6/spring-messaging-6.2.6.jar",
+            "/Users/tauasa/.m2/repository/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar",
+            "/Users/tauasa/.m2/repository/com/github/victools/jsonschema-generator/4.38.0/jsonschema-generator-4.38.0.jar",
+            "/Users/tauasa/.m2/repository/com/fasterxml/classmate/1.7.0/classmate-1.7.0.jar",
+            "/Users/tauasa/.m2/repository/com/github/victools/jsonschema-module-jackson/4.38.0/jsonschema-module-jackson-4.38.0.jar",
+            "/Users/tauasa/.m2/repository/com/github/victools/jsonschema-module-swagger-2/4.38.0/jsonschema-module-swagger-2-4.38.0.jar",
+            "/Users/tauasa/.m2/repository/io/swagger/core/v3/swagger-annotations-jakarta/2.2.38/swagger-annotations-jakarta-2.2.38.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-retry/1.0.0-M5/spring-ai-retry-1.0.0-M5.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M5/spring-ai-core-1.0.0-M5.jar",
+            "/Users/tauasa/.m2/repository/io/swagger/core/v3/swagger-annotations/2.2.20/swagger-annotations-2.2.20.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/retry/spring-retry/2.0.11/spring-retry-2.0.11.jar",
+            "/Users/tauasa/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar",
+            "/Users/tauasa/.m2/repository/org/apache/groovy/groovy-json/4.0.26/groovy-json-4.0.26.jar",
+            "/Users/tauasa/.m2/repository/org/apache/groovy/groovy/4.0.26/groovy-4.0.26.jar",
+            "/Users/tauasa/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar",
+            "/Users/tauasa/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/spring-context-support/6.2.6/spring-context-support-6.2.6.jar",
+            "/Users/tauasa/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter-webflux/3.4.5/spring-boot-starter-webflux-3.4.5.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.4.5/spring-boot-starter-json-3.4.5.jar",
+            "/Users/tauasa/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar",
+            "/Users/tauasa/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar",
+            "/Users/tauasa/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar",
+            "/Users/tauasa/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.18.3/jackson-datatype-jdk8-2.18.3.jar",
+            "/Users/tauasa/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.3/jackson-datatype-jsr310-2.18.3.jar",
+            "/Users/tauasa/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.18.3/jackson-module-parameter-names-2.18.3.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter-reactor-netty/3.4.5/spring-boot-starter-reactor-netty-3.4.5.jar",
+            "/Users/tauasa/.m2/repository/io/projectreactor/netty/reactor-netty-http/1.2.5/reactor-netty-http-1.2.5.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-codec-http/4.1.119.Final/netty-codec-http-4.1.119.Final.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-common/4.1.119.Final/netty-common-4.1.119.Final.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-buffer/4.1.119.Final/netty-buffer-4.1.119.Final.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-transport/4.1.119.Final/netty-transport-4.1.119.Final.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-codec/4.1.119.Final/netty-codec-4.1.119.Final.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-handler/4.1.119.Final/netty-handler-4.1.119.Final.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-codec-http2/4.1.119.Final/netty-codec-http2-4.1.119.Final.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-resolver-dns/4.1.119.Final/netty-resolver-dns-4.1.119.Final.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-resolver/4.1.119.Final/netty-resolver-4.1.119.Final.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-codec-dns/4.1.119.Final/netty-codec-dns-4.1.119.Final.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.119.Final/netty-resolver-dns-native-macos-4.1.119.Final-osx-x86_64.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.119.Final/netty-resolver-dns-classes-macos-4.1.119.Final.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-transport-native-epoll/4.1.119.Final/netty-transport-native-epoll-4.1.119.Final-linux-x86_64.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.119.Final/netty-transport-native-unix-common-4.1.119.Final.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.119.Final/netty-transport-classes-epoll-4.1.119.Final.jar",
+            "/Users/tauasa/.m2/repository/io/projectreactor/netty/reactor-netty-core/1.2.5/reactor-netty-core-1.2.5.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-handler-proxy/4.1.119.Final/netty-handler-proxy-4.1.119.Final.jar",
+            "/Users/tauasa/.m2/repository/io/netty/netty-codec-socks/4.1.119.Final/netty-codec-socks-4.1.119.Final.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/spring-web/6.2.6/spring-web-6.2.6.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/spring-beans/6.2.6/spring-beans-6.2.6.jar",
+            "/Users/tauasa/.m2/repository/io/micrometer/micrometer-observation/1.14.6/micrometer-observation-1.14.6.jar",
+            "/Users/tauasa/.m2/repository/io/micrometer/micrometer-commons/1.14.6/micrometer-commons-1.14.6.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/spring-webflux/6.2.6/spring-webflux-6.2.6.jar",
+            "/Users/tauasa/.m2/repository/io/projectreactor/reactor-core/3.7.5/reactor-core-3.7.5.jar",
+            "/Users/tauasa/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.4.5/spring-boot-starter-test-3.4.5.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-test/3.4.5/spring-boot-test-3.4.5.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.4.5/spring-boot-test-autoconfigure-3.4.5.jar",
+            "/Users/tauasa/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar",
+            "/Users/tauasa/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar",
+            "/Users/tauasa/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar",
+            "/Users/tauasa/.m2/repository/net/minidev/json-smart/2.5.2/json-smart-2.5.2.jar",
+            "/Users/tauasa/.m2/repository/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2.jar",
+            "/Users/tauasa/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar",
+            "/Users/tauasa/.m2/repository/org/assertj/assertj-core/3.26.3/assertj-core-3.26.3.jar",
+            "/Users/tauasa/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar",
+            "/Users/tauasa/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar",
+            "/Users/tauasa/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar",
+            "/Users/tauasa/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar",
+            "/Users/tauasa/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar",
+            "/Users/tauasa/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar",
+            "/Users/tauasa/.m2/repository/org/mockito/mockito-junit-jupiter/5.14.2/mockito-junit-jupiter-5.14.2.jar",
+            "/Users/tauasa/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar",
+            "/Users/tauasa/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar",
+            "/Users/tauasa/.m2/repository/org/springframework/spring-test/6.2.6/spring-test-6.2.6.jar",
+            "/Users/tauasa/.m2/repository/org/xmlunit/xmlunit-core/2.10.0/xmlunit-core-2.10.0.jar",
+            "/Users/tauasa/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4.jar",
+            "/Users/tauasa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.jar",
+            "/Users/tauasa/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar",
+            "/Users/tauasa/.m2/repository/org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.jar",
+            "/Users/tauasa/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar",
+            "/Users/tauasa/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.jar",
+            "/Users/tauasa/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar",
+            "/Users/tauasa/.m2/repository/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.jar"
+        ],
+        "out": "/Users/tauasa/Projects/GitHub/vietlatin/target",
+        "classesDir": "/Users/tauasa/Projects/GitHub/vietlatin/target/test-classes",
+        "resources": [
+            "/Users/tauasa/Projects/GitHub/vietlatin/src/test/resources"
+        ],
+        "java": {
+            "options": [
+                "-g",
+                "--release",
+                "22",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "mill.testng.TestNGFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Users/tauasa/OpenJDK/jdk-22.0.1.jdk/Contents/Home",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-aop",
+                    "version": "6.2.6",
+                    "artifacts": [
+                        {
+                            "name": "spring-aop",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-aop/6.2.6/spring-aop-6.2.6.jar"
+                        },
+                        {
+                            "name": "spring-aop",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-aop/6.2.6/spring-aop-6.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-json",
+                    "version": "3.4.5",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-json",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.4.5/spring-boot-starter-json-3.4.5.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-json",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.4.5/spring-boot-starter-json-3.4.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.jayway.jsonpath",
+                    "name": "json-path",
+                    "version": "2.9.0",
+                    "artifacts": [
+                        {
+                            "name": "json-path",
+                            "path": "/Users/tauasa/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar"
+                        },
+                        {
+                            "name": "json-path",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml",
+                    "name": "classmate",
+                    "version": "1.7.0",
+                    "artifacts": [
+                        {
+                            "name": "classmate",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/classmate/1.7.0/classmate-1.7.0.jar"
+                        },
+                        {
+                            "name": "classmate",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/classmate/1.7.0/classmate-1.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.retry",
+                    "name": "spring-retry",
+                    "version": "2.0.11",
+                    "artifacts": [
+                        {
+                            "name": "spring-retry",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/retry/spring-retry/2.0.11/spring-retry-2.0.11.jar"
+                        },
+                        {
+                            "name": "spring-retry",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/retry/spring-retry/2.0.11/spring-retry-2.0.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.5.18",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/Users/tauasa/.m2/repository/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/ch/qos/logback/logback-core/1.5.18/logback-core-1.5.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.5.18",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "/Users/tauasa/.m2/repository/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/ch/qos/logback/logback-classic/1.5.18/logback-classic-1.5.18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-lang3",
+                    "version": "3.17.0",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "/Users/tauasa/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.micrometer",
+                    "name": "micrometer-commons",
+                    "version": "1.14.6",
+                    "artifacts": [
+                        {
+                            "name": "micrometer-commons",
+                            "path": "/Users/tauasa/.m2/repository/io/micrometer/micrometer-commons/1.14.6/micrometer-commons-1.14.6.jar"
+                        },
+                        {
+                            "name": "micrometer-commons",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/micrometer/micrometer-commons/1.14.6/micrometer-commons-1.14.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.18.3",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.3/jackson-annotations-2.18.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-params",
+                    "version": "5.11.4",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-params",
+                            "path": "/Users/tauasa/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-params",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.rest-assured",
+                    "name": "rest-assured-common",
+                    "version": "5.5.1",
+                    "artifacts": [
+                        {
+                            "name": "rest-assured-common",
+                            "path": "/Users/tauasa/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar"
+                        },
+                        {
+                            "name": "rest-assured-common",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.groovy",
+                    "name": "groovy-json",
+                    "version": "4.0.26",
+                    "artifacts": [
+                        {
+                            "name": "groovy-json",
+                            "path": "/Users/tauasa/.m2/repository/org/apache/groovy/groovy-json/4.0.26/groovy-json-4.0.26.jar"
+                        },
+                        {
+                            "name": "groovy-json",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/apache/groovy/groovy-json/4.0.26/groovy-json-4.0.26-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vaadin.external.google",
+                    "name": "android-json",
+                    "version": "0.0.20131108.vaadin1",
+                    "artifacts": [
+                        {
+                            "name": "android-json",
+                            "path": "/Users/tauasa/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar"
+                        },
+                        {
+                            "name": "android-json",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.ai",
+                    "name": "spring-ai-autoconfigure-model-elevenlabs",
+                    "version": "1.1.4",
+                    "artifacts": [
+                        {
+                            "name": "spring-ai-autoconfigure-model-elevenlabs",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-autoconfigure-model-elevenlabs/1.1.4/spring-ai-autoconfigure-model-elevenlabs-1.1.4.jar"
+                        },
+                        {
+                            "name": "spring-ai-autoconfigure-model-elevenlabs",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-autoconfigure-model-elevenlabs/1.1.4/spring-ai-autoconfigure-model-elevenlabs-1.1.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.projectreactor.netty",
+                    "name": "reactor-netty-core",
+                    "version": "1.2.5",
+                    "artifacts": [
+                        {
+                            "name": "reactor-netty-core",
+                            "path": "/Users/tauasa/.m2/repository/io/projectreactor/netty/reactor-netty-core/1.2.5/reactor-netty-core-1.2.5.jar"
+                        },
+                        {
+                            "name": "reactor-netty-core",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/projectreactor/netty/reactor-netty-core/1.2.5/reactor-netty-core-1.2.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-api",
+                    "version": "5.11.4",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-api",
+                            "path": "/Users/tauasa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-api",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.xmlunit",
+                    "name": "xmlunit-core",
+                    "version": "2.10.0",
+                    "artifacts": [
+                        {
+                            "name": "xmlunit-core",
+                            "path": "/Users/tauasa/.m2/repository/org/xmlunit/xmlunit-core/2.10.0/xmlunit-core-2.10.0.jar"
+                        },
+                        {
+                            "name": "xmlunit-core",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/xmlunit/xmlunit-core/2.10.0/xmlunit-core-2.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.18.3",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.3/jackson-core-2.18.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter",
+                    "version": "3.4.5",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter/3.4.5/spring-boot-starter-3.4.5.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter/3.4.5/spring-boot-starter-3.4.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.opentest4j",
+                    "name": "opentest4j",
+                    "version": "1.3.0",
+                    "artifacts": [
+                        {
+                            "name": "opentest4j",
+                            "path": "/Users/tauasa/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar"
+                        },
+                        {
+                            "name": "opentest4j",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-test",
+                    "version": "6.2.6",
+                    "artifacts": [
+                        {
+                            "name": "spring-test",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-test/6.2.6/spring-test-6.2.6.jar"
+                        },
+                        {
+                            "name": "spring-test",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-test/6.2.6/spring-test-6.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mockito",
+                    "name": "mockito-core",
+                    "version": "5.14.2",
+                    "artifacts": [
+                        {
+                            "name": "mockito-core",
+                            "path": "/Users/tauasa/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar"
+                        },
+                        {
+                            "name": "mockito-core",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hamcrest",
+                    "name": "hamcrest",
+                    "version": "2.2",
+                    "artifacts": [
+                        {
+                            "name": "hamcrest",
+                            "path": "/Users/tauasa/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar"
+                        },
+                        {
+                            "name": "hamcrest",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "antlr4-runtime",
+                    "version": "4.13.1",
+                    "artifacts": [
+                        {
+                            "name": "antlr4-runtime",
+                            "path": "/Users/tauasa/.m2/repository/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar"
+                        },
+                        {
+                            "name": "antlr4-runtime",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.bytebuddy",
+                    "name": "byte-buddy",
+                    "version": "1.15.11",
+                    "artifacts": [
+                        {
+                            "name": "byte-buddy",
+                            "path": "/Users/tauasa/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar"
+                        },
+                        {
+                            "name": "byte-buddy",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.ai",
+                    "name": "spring-ai-starter-model-elevenlabs",
+                    "version": "1.1.4",
+                    "artifacts": [
+                        {
+                            "name": "spring-ai-starter-model-elevenlabs",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-starter-model-elevenlabs/1.1.4/spring-ai-starter-model-elevenlabs-1.1.4.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-engine",
+                    "version": "1.11.4",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-engine",
+                            "path": "/Users/tauasa/.m2/repository/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.jar"
+                        },
+                        {
+                            "name": "junit-platform-engine",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.victools",
+                    "name": "jsonschema-generator",
+                    "version": "4.38.0",
+                    "artifacts": [
+                        {
+                            "name": "jsonschema-generator",
+                            "path": "/Users/tauasa/.m2/repository/com/github/victools/jsonschema-generator/4.38.0/jsonschema-generator-4.38.0.jar"
+                        },
+                        {
+                            "name": "jsonschema-generator",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/com/github/victools/jsonschema-generator/4.38.0/jsonschema-generator-4.38.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-jcl",
+                    "version": "6.2.6",
+                    "artifacts": [
+                        {
+                            "name": "spring-jcl",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-jcl/6.2.6/spring-jcl-6.2.6.jar"
+                        },
+                        {
+                            "name": "spring-jcl",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-jcl/6.2.6/spring-jcl-6.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-web",
+                    "version": "6.2.6",
+                    "artifacts": [
+                        {
+                            "name": "spring-web",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-web/6.2.6/spring-web-6.2.6.jar"
+                        },
+                        {
+                            "name": "spring-web",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-web/6.2.6/spring-web-6.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "2.0.17",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/Users/tauasa/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.bytebuddy",
+                    "name": "byte-buddy-agent",
+                    "version": "1.15.11",
+                    "artifacts": [
+                        {
+                            "name": "byte-buddy-agent",
+                            "path": "/Users/tauasa/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar"
+                        },
+                        {
+                            "name": "byte-buddy-agent",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-buffer",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-buffer",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-buffer/4.1.119.Final/netty-buffer-4.1.119.Final.jar"
+                        },
+                        {
+                            "name": "netty-buffer",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-buffer/4.1.119.Final/netty-buffer-4.1.119.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler-proxy",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler-proxy",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-handler-proxy/4.1.119.Final/netty-handler-proxy-4.1.119.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler-proxy",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-handler-proxy/4.1.119.Final/netty-handler-proxy-4.1.119.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-parameter-names",
+                    "version": "2.18.3",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-parameter-names",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.18.3/jackson-module-parameter-names-2.18.3.jar"
+                        },
+                        {
+                            "name": "jackson-module-parameter-names",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.18.3/jackson-module-parameter-names-2.18.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.validation",
+                    "name": "validation-api",
+                    "version": "1.1.0.Final",
+                    "artifacts": [
+                        {
+                            "name": "validation-api",
+                            "path": "/Users/tauasa/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"
+                        },
+                        {
+                            "name": "validation-api",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-classes-epoll",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-classes-epoll",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.119.Final/netty-transport-classes-epoll-4.1.119.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-classes-epoll",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.119.Final/netty-transport-classes-epoll-4.1.119.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.xml.bind",
+                    "name": "jakarta.xml.bind-api",
+                    "version": "4.0.2",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.xml.bind-api",
+                            "path": "/Users/tauasa/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar"
+                        },
+                        {
+                            "name": "jakarta.xml.bind-api",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.micrometer",
+                    "name": "micrometer-observation",
+                    "version": "1.14.6",
+                    "artifacts": [
+                        {
+                            "name": "micrometer-observation",
+                            "path": "/Users/tauasa/.m2/repository/io/micrometer/micrometer-observation/1.14.6/micrometer-observation-1.14.6.jar"
+                        },
+                        {
+                            "name": "micrometer-observation",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/micrometer/micrometer-observation/1.14.6/micrometer-observation-1.14.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hdrhistogram",
+                    "name": "HdrHistogram",
+                    "version": "2.2.2",
+                    "artifacts": [
+                        {
+                            "name": "HdrHistogram",
+                            "path": "/Users/tauasa/.m2/repository/org/hdrhistogram/HdrHistogram/2.2.2/HdrHistogram-2.2.2.jar"
+                        },
+                        {
+                            "name": "HdrHistogram",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/hdrhistogram/HdrHistogram/2.2.2/HdrHistogram-2.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.projectreactor.netty",
+                    "name": "reactor-netty-http",
+                    "version": "1.2.5",
+                    "artifacts": [
+                        {
+                            "name": "reactor-netty-http",
+                            "path": "/Users/tauasa/.m2/repository/io/projectreactor/netty/reactor-netty-http/1.2.5/reactor-netty-http-1.2.5.jar"
+                        },
+                        {
+                            "name": "reactor-netty-http",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/projectreactor/netty/reactor-netty-http/1.2.5/reactor-netty-http-1.2.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.ai",
+                    "name": "spring-ai-core",
+                    "version": "1.0.0-M5",
+                    "artifacts": [
+                        {
+                            "name": "spring-ai-core",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M5/spring-ai-core-1.0.0-M5.jar"
+                        },
+                        {
+                            "name": "spring-ai-core",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-core/1.0.0-M5/spring-ai-core-1.0.0-M5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.swagger.core.v3",
+                    "name": "swagger-annotations",
+                    "version": "2.2.20",
+                    "artifacts": [
+                        {
+                            "name": "swagger-annotations",
+                            "path": "/Users/tauasa/.m2/repository/io/swagger/core/v3/swagger-annotations/2.2.20/swagger-annotations-2.2.20.jar"
+                        },
+                        {
+                            "name": "swagger-annotations",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/swagger/core/v3/swagger-annotations/2.2.20/swagger-annotations-2.2.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.objenesis",
+                    "name": "objenesis",
+                    "version": "3.3",
+                    "artifacts": [
+                        {
+                            "name": "objenesis",
+                            "path": "/Users/tauasa/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar"
+                        },
+                        {
+                            "name": "objenesis",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.ai",
+                    "name": "spring-ai-commons",
+                    "version": "1.1.4",
+                    "artifacts": [
+                        {
+                            "name": "spring-ai-commons",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-commons/1.1.4/spring-ai-commons-1.1.4.jar"
+                        },
+                        {
+                            "name": "spring-ai-commons",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-commons/1.1.4/spring-ai-commons-1.1.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-autoconfigure",
+                    "version": "3.4.5",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-autoconfigure",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.4.5/spring-boot-autoconfigure-3.4.5.jar"
+                        },
+                        {
+                            "name": "spring-boot-autoconfigure",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.4.5/spring-boot-autoconfigure-3.4.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver-dns-classes-macos",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver-dns-classes-macos",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.119.Final/netty-resolver-dns-classes-macos-4.1.119.Final.jar"
+                        },
+                        {
+                            "name": "netty-resolver-dns-classes-macos",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.119.Final/netty-resolver-dns-classes-macos-4.1.119.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter",
+                    "version": "5.11.4",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter",
+                            "path": "/Users/tauasa/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4.jar"
+                        },
+                        {
+                            "name": "junit-jupiter",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.ai",
+                    "name": "spring-ai-retry",
+                    "version": "1.0.0-M5",
+                    "artifacts": [
+                        {
+                            "name": "spring-ai-retry",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-retry/1.0.0-M5/spring-ai-retry-1.0.0-M5.jar"
+                        },
+                        {
+                            "name": "spring-ai-retry",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-retry/1.0.0-M5/spring-ai-retry-1.0.0-M5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-test",
+                    "version": "3.4.5",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-test",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-test/3.4.5/spring-boot-test-3.4.5.jar"
+                        },
+                        {
+                            "name": "spring-boot-test",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-test/3.4.5/spring-boot-test-3.4.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-codec-http/4.1.119.Final/netty-codec-http-4.1.119.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-http",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-codec-http/4.1.119.Final/netty-codec-http-4.1.119.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-beans",
+                    "version": "6.2.6",
+                    "artifacts": [
+                        {
+                            "name": "spring-beans",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-beans/6.2.6/spring-beans-6.2.6.jar"
+                        },
+                        {
+                            "name": "spring-beans",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-beans/6.2.6/spring-beans-6.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-resolver/4.1.119.Final/netty-resolver-4.1.119.Final.jar"
+                        },
+                        {
+                            "name": "netty-resolver",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-resolver/4.1.119.Final/netty-resolver-4.1.119.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "antlr-runtime",
+                    "version": "3.5.3",
+                    "artifacts": [
+                        {
+                            "name": "antlr-runtime",
+                            "path": "/Users/tauasa/.m2/repository/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.jar"
+                        },
+                        {
+                            "name": "antlr-runtime",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.ai",
+                    "name": "spring-ai-autoconfigure-retry",
+                    "version": "1.1.4",
+                    "artifacts": [
+                        {
+                            "name": "spring-ai-autoconfigure-retry",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-autoconfigure-retry/1.1.4/spring-ai-autoconfigure-retry-1.1.4.jar"
+                        },
+                        {
+                            "name": "spring-ai-autoconfigure-retry",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-autoconfigure-retry/1.1.4/spring-ai-autoconfigure-retry-1.1.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-common",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-common",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-common/4.1.119.Final/netty-common-4.1.119.Final.jar"
+                        },
+                        {
+                            "name": "netty-common",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-common/4.1.119.Final/netty-common-4.1.119.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.ai",
+                    "name": "spring-ai-model",
+                    "version": "1.1.4",
+                    "artifacts": [
+                        {
+                            "name": "spring-ai-model",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-model/1.1.4/spring-ai-model-1.1.4.jar"
+                        },
+                        {
+                            "name": "spring-ai-model",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-model/1.1.4/spring-ai-model-1.1.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.ai",
+                    "name": "spring-ai-elevenlabs",
+                    "version": "1.1.4",
+                    "artifacts": [
+                        {
+                            "name": "spring-ai-elevenlabs",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-elevenlabs/1.1.4/spring-ai-elevenlabs-1.1.4.jar"
+                        },
+                        {
+                            "name": "spring-ai-elevenlabs",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-elevenlabs/1.1.4/spring-ai-elevenlabs-1.1.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.micrometer",
+                    "name": "context-propagation",
+                    "version": "1.1.3",
+                    "artifacts": [
+                        {
+                            "name": "context-propagation",
+                            "path": "/Users/tauasa/.m2/repository/io/micrometer/context-propagation/1.1.3/context-propagation-1.1.3.jar"
+                        },
+                        {
+                            "name": "context-propagation",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/micrometer/context-propagation/1.1.3/context-propagation-1.1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.latencyutils",
+                    "name": "LatencyUtils",
+                    "version": "2.0.3",
+                    "artifacts": [
+                        {
+                            "name": "LatencyUtils",
+                            "path": "/Users/tauasa/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar"
+                        },
+                        {
+                            "name": "LatencyUtils",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-context",
+                    "version": "6.2.6",
+                    "artifacts": [
+                        {
+                            "name": "spring-context",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-context/6.2.6/spring-context-6.2.6.jar"
+                        },
+                        {
+                            "name": "spring-context",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-context/6.2.6/spring-context-6.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.skyscreamer",
+                    "name": "jsonassert",
+                    "version": "1.5.3",
+                    "artifacts": [
+                        {
+                            "name": "jsonassert",
+                            "path": "/Users/tauasa/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar"
+                        },
+                        {
+                            "name": "jsonassert",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-webflux",
+                    "version": "3.4.5",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-webflux",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter-webflux/3.4.5/spring-boot-starter-webflux-3.4.5.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-webflux",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter-webflux/3.4.5/spring-boot-starter-webflux-3.4.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-context-support",
+                    "version": "6.2.6",
+                    "artifacts": [
+                        {
+                            "name": "spring-context-support",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-context-support/6.2.6/spring-context-support-6.2.6.jar"
+                        },
+                        {
+                            "name": "spring-context-support",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-context-support/6.2.6/spring-context-support-6.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-engine",
+                    "version": "5.11.4",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-engine",
+                            "path": "/Users/tauasa/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-engine",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jdk8",
+                    "version": "2.18.3",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.18.3/jackson-datatype-jdk8-2.18.3.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.18.3/jackson-datatype-jdk8-2.18.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.module",
+                    "name": "jackson-module-jsonSchema",
+                    "version": "2.18.3",
+                    "artifacts": [
+                        {
+                            "name": "jackson-module-jsonSchema",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.18.3/jackson-module-jsonSchema-2.18.3.jar"
+                        },
+                        {
+                            "name": "jackson-module-jsonSchema",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.18.3/jackson-module-jsonSchema-2.18.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.annotation",
+                    "name": "jakarta.annotation-api",
+                    "version": "2.1.1",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.annotation-api",
+                            "path": "/Users/tauasa/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar"
+                        },
+                        {
+                            "name": "jakarta.annotation-api",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.antlr",
+                    "name": "ST4",
+                    "version": "4.3.4",
+                    "artifacts": [
+                        {
+                            "name": "ST4",
+                            "path": "/Users/tauasa/.m2/repository/org/antlr/ST4/4.3.4/ST4-4.3.4.jar"
+                        },
+                        {
+                            "name": "ST4",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/antlr/ST4/4.3.4/ST4-4.3.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-handler/4.1.119.Final/netty-handler-4.1.119.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-handler/4.1.119.Final/netty-handler-4.1.119.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-socks",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-socks",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-codec-socks/4.1.119.Final/netty-codec-socks-4.1.119.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-socks",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-codec-socks/4.1.119.Final/netty-codec-socks-4.1.119.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.projectreactor",
+                    "name": "reactor-core",
+                    "version": "3.7.5",
+                    "artifacts": [
+                        {
+                            "name": "reactor-core",
+                            "path": "/Users/tauasa/.m2/repository/io/projectreactor/reactor-core/3.7.5/reactor-core-3.7.5.jar"
+                        },
+                        {
+                            "name": "reactor-core",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/projectreactor/reactor-core/3.7.5/reactor-core-3.7.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.4",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "/Users/tauasa/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-api",
+                    "version": "2.24.3",
+                    "artifacts": [
+                        {
+                            "name": "log4j-api",
+                            "path": "/Users/tauasa/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar"
+                        },
+                        {
+                            "name": "log4j-api",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.ai",
+                    "name": "spring-ai-autoconfigure-model-tool",
+                    "version": "1.1.4",
+                    "artifacts": [
+                        {
+                            "name": "spring-ai-autoconfigure-model-tool",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-autoconfigure-model-tool/1.1.4/spring-ai-autoconfigure-model-tool-1.1.4.jar"
+                        },
+                        {
+                            "name": "spring-ai-autoconfigure-model-tool",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-autoconfigure-model-tool/1.1.4/spring-ai-autoconfigure-model-tool-1.1.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.rest-assured",
+                    "name": "json-path",
+                    "version": "5.5.1",
+                    "artifacts": [
+                        {
+                            "name": "json-path",
+                            "path": "/Users/tauasa/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar"
+                        },
+                        {
+                            "name": "json-path",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mockito",
+                    "name": "mockito-junit-jupiter",
+                    "version": "5.14.2",
+                    "artifacts": [
+                        {
+                            "name": "mockito-junit-jupiter",
+                            "path": "/Users/tauasa/.m2/repository/org/mockito/mockito-junit-jupiter/5.14.2/mockito-junit-jupiter-5.14.2.jar"
+                        },
+                        {
+                            "name": "mockito-junit-jupiter",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/mockito/mockito-junit-jupiter/5.14.2/mockito-junit-jupiter-5.14.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.assertj",
+                    "name": "assertj-core",
+                    "version": "3.26.3",
+                    "artifacts": [
+                        {
+                            "name": "assertj-core",
+                            "path": "/Users/tauasa/.m2/repository/org/assertj/assertj-core/3.26.3/assertj-core-3.26.3.jar"
+                        },
+                        {
+                            "name": "assertj-core",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/assertj/assertj-core/3.26.3/assertj-core-3.26.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-messaging",
+                    "version": "6.2.6",
+                    "artifacts": [
+                        {
+                            "name": "spring-messaging",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-messaging/6.2.6/spring-messaging-6.2.6.jar"
+                        },
+                        {
+                            "name": "spring-messaging",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-messaging/6.2.6/spring-messaging-6.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.ai",
+                    "name": "spring-ai-template-st",
+                    "version": "1.1.4",
+                    "artifacts": [
+                        {
+                            "name": "spring-ai-template-st",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-template-st/1.1.4/spring-ai-template-st-1.1.4.jar"
+                        },
+                        {
+                            "name": "spring-ai-template-st",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/ai/spring-ai-template-st/1.1.4/spring-ai-template-st-1.1.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-dns",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-dns",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-codec-dns/4.1.119.Final/netty-codec-dns-4.1.119.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-dns",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-codec-dns/4.1.119.Final/netty-codec-dns-4.1.119.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-commons",
+                    "version": "1.11.4",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-commons",
+                            "path": "/Users/tauasa/.m2/repository/org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.jar"
+                        },
+                        {
+                            "name": "junit-platform-commons",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http2",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http2",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-codec-http2/4.1.119.Final/netty-codec-http2-4.1.119.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-http2",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-codec-http2/4.1.119.Final/netty-codec-http2-4.1.119.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.swagger.core.v3",
+                    "name": "swagger-annotations-jakarta",
+                    "version": "2.2.38",
+                    "artifacts": [
+                        {
+                            "name": "swagger-annotations-jakarta",
+                            "path": "/Users/tauasa/.m2/repository/io/swagger/core/v3/swagger-annotations-jakarta/2.2.38/swagger-annotations-jakarta-2.2.38.jar"
+                        },
+                        {
+                            "name": "swagger-annotations-jakarta",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/swagger/core/v3/swagger-annotations-jakarta/2.2.38/swagger-annotations-jakarta-2.2.38-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.victools",
+                    "name": "jsonschema-module-jackson",
+                    "version": "4.38.0",
+                    "artifacts": [
+                        {
+                            "name": "jsonschema-module-jackson",
+                            "path": "/Users/tauasa/.m2/repository/com/github/victools/jsonschema-module-jackson/4.38.0/jsonschema-module-jackson-4.38.0.jar"
+                        },
+                        {
+                            "name": "jsonschema-module-jackson",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/com/github/victools/jsonschema-module-jackson/4.38.0/jsonschema-module-jackson-4.38.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-codec/4.1.119.Final/netty-codec-4.1.119.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-codec/4.1.119.Final/netty-codec-4.1.119.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-test-autoconfigure",
+                    "version": "3.4.5",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-test-autoconfigure",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.4.5/spring-boot-test-autoconfigure-3.4.5.jar"
+                        },
+                        {
+                            "name": "spring-boot-test-autoconfigure",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.4.5/spring-boot-test-autoconfigure-3.4.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-expression",
+                    "version": "6.2.6",
+                    "artifacts": [
+                        {
+                            "name": "spring-expression",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-expression/6.2.6/spring-expression-6.2.6.jar"
+                        },
+                        {
+                            "name": "spring-expression",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-expression/6.2.6/spring-expression-6.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-logging",
+                    "version": "3.4.5",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-logging",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.4.5/spring-boot-starter-logging-3.4.5.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-logging",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.4.5/spring-boot-starter-logging-3.4.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.minidev",
+                    "name": "accessors-smart",
+                    "version": "2.5.2",
+                    "artifacts": [
+                        {
+                            "name": "accessors-smart",
+                            "path": "/Users/tauasa/.m2/repository/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2.jar"
+                        },
+                        {
+                            "name": "accessors-smart",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "jul-to-slf4j",
+                    "version": "2.0.17",
+                    "artifacts": [
+                        {
+                            "name": "jul-to-slf4j",
+                            "path": "/Users/tauasa/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17.jar"
+                        },
+                        {
+                            "name": "jul-to-slf4j",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-webflux",
+                    "version": "6.2.6",
+                    "artifacts": [
+                        {
+                            "name": "spring-webflux",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-webflux/6.2.6/spring-webflux-6.2.6.jar"
+                        },
+                        {
+                            "name": "spring-webflux",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-webflux/6.2.6/spring-webflux-6.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.activation",
+                    "name": "jakarta.activation-api",
+                    "version": "2.1.3",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.activation-api",
+                            "path": "/Users/tauasa/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar"
+                        },
+                        {
+                            "name": "jakarta.activation-api",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot",
+                    "version": "3.4.5",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot/3.4.5/spring-boot-3.4.5.jar"
+                        },
+                        {
+                            "name": "spring-boot",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot/3.4.5/spring-boot-3.4.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.victools",
+                    "name": "jsonschema-module-swagger-2",
+                    "version": "4.38.0",
+                    "artifacts": [
+                        {
+                            "name": "jsonschema-module-swagger-2",
+                            "path": "/Users/tauasa/.m2/repository/com/github/victools/jsonschema-module-swagger-2/4.38.0/jsonschema-module-swagger-2-4.38.0.jar"
+                        },
+                        {
+                            "name": "jsonschema-module-swagger-2",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/com/github/victools/jsonschema-module-swagger-2/4.38.0/jsonschema-module-swagger-2-4.38.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apiguardian",
+                    "name": "apiguardian-api",
+                    "version": "1.1.2",
+                    "artifacts": [
+                        {
+                            "name": "apiguardian-api",
+                            "path": "/Users/tauasa/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar"
+                        },
+                        {
+                            "name": "apiguardian-api",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-core",
+                    "version": "6.2.6",
+                    "artifacts": [
+                        {
+                            "name": "spring-core",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-core/6.2.6/spring-core-6.2.6.jar"
+                        },
+                        {
+                            "name": "spring-core",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/spring-core/6.2.6/spring-core-6.2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.yaml",
+                    "name": "snakeyaml",
+                    "version": "2.3",
+                    "artifacts": [
+                        {
+                            "name": "snakeyaml",
+                            "path": "/Users/tauasa/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar"
+                        },
+                        {
+                            "name": "snakeyaml",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-test",
+                    "version": "3.4.5",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-test",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.4.5/spring-boot-starter-test-3.4.5.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-test",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.4.5/spring-boot-starter-test-3.4.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.ow2.asm",
+                    "name": "asm",
+                    "version": "9.7.1",
+                    "artifacts": [
+                        {
+                            "name": "asm",
+                            "path": "/Users/tauasa/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                        },
+                        {
+                            "name": "asm",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.groovy",
+                    "name": "groovy",
+                    "version": "4.0.26",
+                    "artifacts": [
+                        {
+                            "name": "groovy",
+                            "path": "/Users/tauasa/.m2/repository/org/apache/groovy/groovy/4.0.26/groovy-4.0.26.jar"
+                        },
+                        {
+                            "name": "groovy",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/apache/groovy/groovy/4.0.26/groovy-4.0.26-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.18.3",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.3/jackson-databind-2.18.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver-dns-native-macos",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver-dns-native-macos",
+                            "classifier": "osx-x86_64",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.119.Final/netty-resolver-dns-native-macos-4.1.119.Final-osx-x86_64.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jsr310",
+                    "version": "2.18.3",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.3/jackson-datatype-jsr310-2.18.3.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jsr310",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.3/jackson-datatype-jsr310-2.18.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-to-slf4j",
+                    "version": "2.24.3",
+                    "artifacts": [
+                        {
+                            "name": "log4j-to-slf4j",
+                            "path": "/Users/tauasa/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.24.3/log4j-to-slf4j-2.24.3.jar"
+                        },
+                        {
+                            "name": "log4j-to-slf4j",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.24.3/log4j-to-slf4j-2.24.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-transport/4.1.119.Final/netty-transport-4.1.119.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-transport/4.1.119.Final/netty-transport-4.1.119.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.knuddels",
+                    "name": "jtokkit",
+                    "version": "1.1.0",
+                    "artifacts": [
+                        {
+                            "name": "jtokkit",
+                            "path": "/Users/tauasa/.m2/repository/com/knuddels/jtokkit/1.1.0/jtokkit-1.1.0.jar"
+                        },
+                        {
+                            "name": "jtokkit",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/com/knuddels/jtokkit/1.1.0/jtokkit-1.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-reactor-netty",
+                    "version": "3.4.5",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-reactor-netty",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter-reactor-netty/3.4.5/spring-boot-starter-reactor-netty-3.4.5.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-reactor-netty",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/springframework/boot/spring-boot-starter-reactor-netty/3.4.5/spring-boot-starter-reactor-netty-3.4.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.awaitility",
+                    "name": "awaitility",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "awaitility",
+                            "path": "/Users/tauasa/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar"
+                        },
+                        {
+                            "name": "awaitility",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.micrometer",
+                    "name": "micrometer-core",
+                    "version": "1.14.6",
+                    "artifacts": [
+                        {
+                            "name": "micrometer-core",
+                            "path": "/Users/tauasa/.m2/repository/io/micrometer/micrometer-core/1.14.6/micrometer-core-1.14.6.jar"
+                        },
+                        {
+                            "name": "micrometer-core",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/micrometer/micrometer-core/1.14.6/micrometer-core-1.14.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-unix-common",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.119.Final/netty-transport-native-unix-common-4.1.119.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.119.Final/netty-transport-native-unix-common-4.1.119.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-epoll",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-epoll",
+                            "classifier": "linux-x86_64",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-transport-native-epoll/4.1.119.Final/netty-transport-native-epoll-4.1.119.Final-linux-x86_64.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.minidev",
+                    "name": "json-smart",
+                    "version": "2.5.2",
+                    "artifacts": [
+                        {
+                            "name": "json-smart",
+                            "path": "/Users/tauasa/.m2/repository/net/minidev/json-smart/2.5.2/json-smart-2.5.2.jar"
+                        },
+                        {
+                            "name": "json-smart",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/net/minidev/json-smart/2.5.2/json-smart-2.5.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver-dns",
+                    "version": "4.1.119.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver-dns",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-resolver-dns/4.1.119.Final/netty-resolver-dns-4.1.119.Final.jar"
+                        },
+                        {
+                            "name": "netty-resolver-dns",
+                            "classifier": "sources",
+                            "path": "/Users/tauasa/.m2/repository/io/netty/netty-resolver-dns/4.1.119.Final/netty-resolver-dns-4.1.119.Final-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

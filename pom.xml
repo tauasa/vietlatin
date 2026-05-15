@@ -33,7 +33,7 @@
             this to 22 — the source code uses no Java-22-specific features so
             it compiles cleanly either way.
         -->
-        <java.version>21</java.version>
+        <java.version>22</java.version>
         <spring-ai.version>1.0.0-M5</spring-ai.version>
     </properties>
 
