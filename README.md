@@ -1,8 +1,8 @@
 # 🎤 Vietlatin Ongifier
 
-Translates English text into the **Ong Dialect** of the made-up language **Vietlatin** and reads it aloud via TTS backed by [ElevenLabs](https://elevenlabs.io), powered by **Spring AI**.
+Translates English text into the **Ong Dialect** of the made-up language **Vietlatin** and reads it aloud via Text-to-Speech backed by [ElevenLabs](https://elevenlabs.io) or [OpenAI](https://platform.openai.com/api-keys), powered by **Spring AI**.
 
-Although this is a made-up/pretend language, my wife and I use it daily for certain keywords that get our dogs amped up. Since can't say words like "park," "ride," "cookie," "treat," etc, we spell it out in Vietlatin.
+Although it's a made-up/pretend language, my wife and I use it daily for certain keywords that get our dogs all amped up. Since we can't say words like "park," "ride," "cookie," "treat," etc, we spell it out in Vietlatin.
 
 ---
 
@@ -24,6 +24,7 @@ Each word is split into characters. Every character is transformed:
 Park    → pong ā rong kong
 Dog     → dong ō gong
 Cookie  → cong ō ō kong ī ē
+Treat   → tong rong ē ā tong
 ```
 
 ---
@@ -35,19 +36,24 @@ Cookie  → cong ō ō kong ī ē
 | Java | 17+ |
 | Maven | 3.9+ |
 | ElevenLabs API key | [Get one free](https://elevenlabs.io) |
+| OpenAI API key | [Get one free](https://platform.openai.com/api-keys) |
 
 ---
 
 ## Quick Start with ElevenLabs
 
-### 1. Get an ElevenLabs API key
+### 1. Get an ElevenLabs or OpenAI API key
 
 Sign up at <https://elevenlabs.io> — you get **10,000 free credits/month**.
 
 ### 2. Set your API key
 
 ```bash
-export ELEVEN_LABS_API_KEY=your_key_here
+export ELEVEN_LABS_API_KEY=your_elevenlabs_key_here
+```
+**or**
+```bash
+export OPENAI_API_KEY=your_openai_key_here
 ```
 
 ### 3. (Optional) Customise the voice
