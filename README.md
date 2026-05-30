@@ -1,4 +1,4 @@
-# 🎤 Vietlatin Ongifier
+# 🎤 Vīētlātīn Ōngīfīēr
 
 Translates English text into the **Ong Dialect** of the made-up language **Vietlatin** and reads it aloud via Text-to-Speech backed by [ElevenLabs](https://elevenlabs.io) or [OpenAI](https://platform.openai.com/api-keys), powered by **Spring AI**.
 
